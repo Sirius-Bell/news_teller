@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "news-teller"
+version = "0.1.0"
+description = "Simple news teller"
+authors = ["Sirius-Bell <vlad10game@gmail.com>"]
+license = "GPL-3.0"
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyttsx3 = "^2.90"
+newsapi = "^0.1.1"
+configparser = "^5.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

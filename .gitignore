@@ -1,0 +1,5 @@
+# Ignore IDEA
+.idea
+
+# Ignore poetry lockfile
+poetry.lock
